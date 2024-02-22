@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Dynamic Forms With React Hook Form and Zod
+Project built for instructional purposes where I explain dynamic forms with Zod and React Hook Form.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project includes:
+-   Zod Schemas ✅
+-   Validations 🧭
+-   Dynamic Forms (Delete and Create operations) ✈
+-   Error Messages 🧾
+-   Submit Functionality 🪁
+-   Flowbite Integration 💅
+-   Typescript Integration with Vite ⚛
 
-Currently, two official plugins are available:
+  ![image](https://github.com/franciscoluna-28/dynamic-forms-guide-react-hook-form-zod/assets/87947841/33e019f7-6d19-469e-af48-1ae5d879432e)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installing the required dependencies
+To initialize the required dependencies run the following command: `npm install`.
 
-- Configure the top-level `parserOptions` property like this:
+## Running the project
+To run the project use the following command: `npm run dev`. Once you've run this command, the project will be initialized in the port `5173`.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+If you've learned something new from this project, consider following me! ❤
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+
