@@ -1,0 +1,1 @@
+export const MAX_STUDENTS_LENGTH = 5;
