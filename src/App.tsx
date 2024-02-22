@@ -36,7 +36,7 @@ function App() {
 
   return (
     <form
-      className="space-y-6 m-auto max-w-96"
+      className="space-y-6 m-auto max-w-[500px] p-8"
       onSubmit={handleSubmit(onSubmit)}
     >
       <ul className="space-y-6">
